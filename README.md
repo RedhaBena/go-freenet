@@ -12,8 +12,15 @@ To quickly start the application, you can navigate to the `demo` folder and run 
 cd demo
 ```
 
-- **Windows**: Run `start_freenet.bat`
-- **Linux/Mac**: Run `start_freenet.sh`
+- **Windows**: Run `start_freenet.bat`:
+```bash
+start_freenet.bat
+```
+- **Linux/Mac**: Run `start_freenet.sh`:
+```bash
+chmod 777 ./start_freenet.sh
+./start_freenet.sh
+```
 
 These scripts will start multiple Freenet clients with their configurations.
 
